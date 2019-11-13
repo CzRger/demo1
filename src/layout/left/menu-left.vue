@@ -19,7 +19,6 @@
     },
     methods: {
       handleSelect(key, keyPath) {
-        
         this.$router.push({ name: key })
       }
     }
