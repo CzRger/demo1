@@ -18,7 +18,7 @@
       console.log(this.$route)
     },
     methods: {
-      handleSelect(key, keyPath) {
+      handleSelect(key) {
         this.$router.push({ name: key })
       }
     }
